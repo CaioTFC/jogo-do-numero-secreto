@@ -39,7 +39,7 @@ function verificarChute() {
 }
 
 function gerarNumeroMaximo(){
-    return parseInt(Math.random() *100000 + 1);
+    return parseInt(Math.random() *10000 + 1);
 }
 function gerarNumeroAleatorio(){
     let numeroEscolhido = parseInt(Math.random() *numeroMaximo + 1);
